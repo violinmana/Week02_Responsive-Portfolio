@@ -108,12 +108,12 @@ a:hover {
 }
 
 .form_input1 {
-    width: 95%;
+    width: 90%;
     box-sizing: border-box;
 }
 
 .form_input2 {
-    width: 95%;
+    width: 90%;
     height: 150px;
     box-sizing: border-box;
 }
@@ -206,4 +206,67 @@ a:hover {
     font-size: 14px;
     text-align: center;
     padding-top: 25px;
+}
+
+@media screen and (max-width: 980px) {
+    .body_div {
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .body_div {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .nav_header {
+        position: static;
+    }
+
+    #portfolio_body {
+        height: 1800px;
+    }
+
+    .body_div {
+        width: 90%;
+        height: 100%;
+    }
+
+    #img_2 {
+        top: 350px;
+        left: 25px;
+    }
+
+    #img_3 {
+        top: 675px;
+    }
+
+    #img_4 {
+        top: 1000px;
+        left: 25px;
+    }
+
+    #img_5 {
+        top: 1325px;
+    }
+
+    #bar_2 {
+        top: 575px;
+        left: 25px;
+    }
+
+    #bar_3 {
+        top: 900px;
+    }
+
+    #bar_4 {
+        top: 1225px;
+        left: 25px;
+    }
+
+    #bar_5 {
+        top: 1550px;
+    }
 }
